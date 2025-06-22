@@ -192,3 +192,17 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Excluir datos confidenciales (CSV, Excel, JSON, etc.)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+/data/          
+/output/        
+
+# Excluir archivos temporales o específicos
+*.tmp
+*.log
+*.bak
